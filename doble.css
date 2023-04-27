@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/*CSS DOCUMENT*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.contenedor{
+    width: 900px;
+    height: 900px;
+    background: chocolate;
+    margin: auto;
+}
+header{
+    width: 900px;
+    height: 100px;
+    background: black;
+}
+header img{
+    width: 70px;
+    height: 60px;
+    float: left;
+    padding: 10px 22px;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+    line-height: 80px;
+}
+nav{
+    width: 900px;
+    height: 50px;
+    background: rgb(180, 119, 83);
+    text-align: center;
+}
+li{
+    display: inline-block;
+    padding: 15px;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    text-align: center;
+}
+.union{
+    float: left;
+}
+.seccion1{
+    width: 590px;
+    height: 350px;
+    background: burlywood;
+}
+.seccion1 p{
+        text-align: justify;
+        padding: 10px;
+        color: black;
+        font-size: 14px;
+}
+.seccion1 img{
+    width: 250px;
+    height: auto;
+    margin: auto;
+    display: block;
+    border-radius: 15px;
+}
+.seccion2{
+    width: 590px;
+    height: 350px;
+    background: rgb(97, 142, 224);
+}
+.seccion2 img{
+    width: 250px;
+    height: auto;
+    margin: auto;
+    display: block;
+    border-radius: 15px;
+}
+.seccion2 p{
+    text-align: justify;
+    padding: 10px;
+    color: black;
+    font-size: 14px;
+}
+aside{
+    width: 300px;
+    height: 690px;
+    background: brown;
+    float: right;
+}
+aside img{
+    width: 280px;
+    height: auto;
+}
+footer{
+    width: 900px;
+    height: 50px;
+    background: darkblue;
+    clear: both;
+}
+footer p{
+    color: aliceblue;
+    text-align: center;
+    line-height: 45px;
+}
+
